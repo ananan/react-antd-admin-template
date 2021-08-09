@@ -3,7 +3,7 @@ class Typing {
     this.opts = opts || {};
     this.source = opts.source;
     this.output = opts.output;
-    this.delay = opts.delay || 120;
+    this.delay = opts.delay || 10;
     this.chain = {
       parent: null,
       dom: this.output,

@@ -44,7 +44,7 @@ const LayoutHeader = (props) => {
   const menu = (
     <Menu onClick={onClick}>
       <Menu.Item key="dashboard">
-        <Link to="/dashboard">首页</Link>
+        <Link to="/dashboard">Home</Link>
       </Menu.Item>
       <Menu.Item key="project">
         <a
